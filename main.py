@@ -57,7 +57,6 @@ def send_wish(name: str, email: str) -> None:
         print("Exception encountered:\n", e)
         
 
-
 if __name__ == "__main__":
 
     data = load_data(FILEPATH)
